@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="password" value="admin123"/>
+  <parameter name="username" value="qatrainer"/>
+  <listeners>
+    <listener class-name="listeners.Listernerimplementcase"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="com.TestCases.LoginAppService">
+        <methods>
+          <include name="setupsuite"/>
+          <include name="login" invocation-numbers="0"/>
+          <include name="browse"/>
+          <include name="close"/>
+          <include name="fail_capture"/>
+        </methods>
+      </class> <!-- com.TestCases.LoginAppService -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

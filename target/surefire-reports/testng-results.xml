@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="38516" started-at="2021-10-28T16:30:40Z" finished-at="2021-10-28T16:31:19Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="38516" started-at="2021-10-28T16:30:40Z" finished-at="2021-10-28T16:31:19Z">
+      <class name="com.TestCases.LoginAppService">
+        <test-method status="PASS" signature="setupsuite()[pri:0, instance:com.TestCases.LoginAppService@366e2eef]" name="setupsuite" is-config="true" duration-ms="20" started-at="2021-10-29T00:30:40Z" finished-at="2021-10-29T00:30:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupsuite -->
+        <test-method status="PASS" signature="browse()[pri:0, instance:com.TestCases.LoginAppService@366e2eef]" name="browse" is-config="true" duration-ms="6012" started-at="2021-10-29T00:30:40Z" finished-at="2021-10-29T00:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browse -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.LoginAppService@366e2eef]" name="login" duration-ms="32414" started-at="2021-10-29T00:30:46Z" finished-at="2021-10-29T00:31:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qatrainer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[admin123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="fail_capture(org.testng.ITestResult)[pri:0, instance:com.TestCases.LoginAppService@366e2eef]" name="fail_capture" is-config="true" duration-ms="1" started-at="2021-10-29T00:31:19Z" finished-at="2021-10-29T00:31:19Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=login status=SUCCESS method=LoginAppService.login(java.lang.String, java.lang.String)[pri:0, instance:com.TestCases.LoginAppService@366e2eef] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fail_capture -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.TestCases.LoginAppService@366e2eef]" name="close" is-config="true" duration-ms="76" started-at="2021-10-29T00:31:19Z" finished-at="2021-10-29T00:31:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.TestCases.LoginAppService -->
+    </test> <!-- Test1 -->
+  </suite> <!-- Suite -->
+</testng-results>
